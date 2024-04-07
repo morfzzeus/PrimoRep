@@ -11,7 +11,7 @@ TTS è il tuo compagno affidabile per pianificare e gestire le attività settima
 - **Tools Personali:** WhatsApp, IDE online o qualsiasi altra app di: TTS automticamente riconosce la task corrente e ti suggerisce all'istante una serie di tools utili per il completamento della task corrente. Inoltre, con la chat integrata, sei sempre in contatto con il tuo team!
 - **Tabella delle Task di Gruppo:** Assegna eventi, monitora lo stato e collabora senza sforzo. TTS rende la gestione delle attività di gruppo un vero gioco da ragazzi.
 
-## Installazione o Utilizzo: 🛠️
+## Installazione e Utilizzo: 🛠️
 TTS è semplice come un clic. Basta accedere al sito e iniziare a pianificare! Non ci sono barriere tecniche tra te e la produttività. Inoltre, il nostro planner è adFree e supporta l'ambiente. 🌲
 
 ## Tecnologie Utilizzate: 💡
