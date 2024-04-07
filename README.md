@@ -1,2 +1,4 @@
 # Documentazione di TTS "Team Time-Sharing"
-Modifica sul readme
+
+## 1. Introduzione
+TTS or Team Time Sharing
