@@ -21,3 +21,25 @@ TTS è alimentato da tecnologie all’avanguardia: HTML, CSS, JavaScript e un pi
 Hai domande o feedback? Contattaci tramite il nostro sito o sui social media. Il nostro team di supporto è pronto a rispondere e a rendere il tuo viaggio con TTS ancora più piacevole.
 
 Il futuro dell’organizzazione è qui, e si chiama TTS - The Team TimeSharing! 🌐👥
+
+<!-- display the social media buttons in your README -->
+
+[![alt text][1.1]][1]
+
+
+<!-- links to social media icons -->
+<!-- no need to change these -->
+
+<!-- icons with padding -->
+
+[1.1]: https://www.jakebaddeley.com/wp-content/uploads/bmc-full-logo.png
+
+<!-- icons without padding -->
+
+
+<!-- links to your social media accounts -->
+<!-- update these accordingly -->
+
+[1]: https://www.google.it/
+
+<!-- Please don't remove this: Grab your social icons from https://github.com/carlsednaoui/gitsocial -->
