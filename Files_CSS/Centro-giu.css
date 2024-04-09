@@ -7,7 +7,7 @@
     background: salmon;
     padding: 1%;
     
-    height: 39svh;
+    height: 38svh;
     display: grid;
     grid-template-columns: 3fr 10fr 4fr;
     gap: 2%;

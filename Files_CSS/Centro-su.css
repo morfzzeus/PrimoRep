@@ -8,7 +8,7 @@
     padding: 1%;
 
     /* max-height: 50svh; */
-    height: 49svh;
+    height: 48svh;
     display: grid;
     grid-template-columns: 2fr 6fr 6fr 3fr;
     gap: 2%;
@@ -39,6 +39,7 @@
 #calendariSettimana .sezione .body{
     background: gainsboro;
     margin: 0%;
+    padding: 0%;
 }
 
 #colonnaTempi .body{
