@@ -1,0 +1,44 @@
+header *{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+body{
+    background: beige;
+}
+
+.navbar{
+    background: #ff7518;
+    /* font-size: 1em; */
+
+    display: grid;
+    max-height: 9svh;
+    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-areas: sx ce dx;
+
+}
+
+    .navbar .sx{
+        display: flex;
+        padding: 5%;
+
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .navbar .ce{
+        display: flex;
+        flex-flow: row nowrap;
+
+        justify-content: center;
+        column-gap: 5%;
+        align-items: center;
+    }
+
+    .navbar .dx{
+        display: flex;
+        flex-flow: row-reverse;
+
+        justify-content: space-around;
+        align-items: center;
+    }

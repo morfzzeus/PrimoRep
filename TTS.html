@@ -13,37 +13,36 @@
     </style> -->
 
     <!-- <link rel="stylesheet" href="TTS.css"> -->
-    <link rel="stylesheet" href="TTSnuovo.css">
+    <link rel="stylesheet" href="Files_css/Header.css">
+    <link rel="stylesheet" href="Files_css/Centro-su.css">
+    <link rel="stylesheet" href="Files_css/Centro-giu.css">
 </head>
 
 
 <body>
-    <header>
-        <div class="navbar">
+    <header class="navbar">
+        <div class="sx">
+            <img src="Possibili Loghi/Logo_Canva.png" alt="TTS Team-Time-Sharing" width="80%" height="">
+        </div>
 
-            <div class="sx">
-                <img src="Possibili Loghi/Logo1_Trasparente.png" alt="TTS Team-Time-Sharing" width="90px" height="90px">
+        <div class="ce">
+            <div>
+                Barra di ricerca
             </div>
-
-            <div class="ce">
-                <div>
-                    Barra di ricerca
-                </div>
-                <div>
-                    Data e ora corrente + meteo (?)
-                </div>
+            <div>
+                Data e ora corrente + meteo (?)
             </div>
+        </div>
 
-            <div class="dx">
-                <div>
-                    Profilo
-                </div>
-                <div>
-                    AddTeam
-                </div>
-                <div>
-                    Teams
-                </div>
+        <div class="dx">
+            <div>
+                Profilo
+            </div>
+            <div>
+                AddTeam
+            </div>
+            <div>
+                Teams
             </div>
         </div>
     </header>
@@ -52,46 +51,58 @@
         <div id="calendariSettimana">
             <div class="sezione" id="colonnaTempi">
                 <div class="titolo">Time</div>
-                <ul class="body">
-                    <li>00:00 - 00:59</li>
-                    <li>01:00 - 01:59</li>
-                    <li>02:00 - 02:59</li>
-                    <li>03:00 - 03:59</li>
-                    <li>04:00 - 04:59</li>
-                    <li>05:00 - 05:59</li>
-                    <li>06:00 - 06:59</li>
-                    <li>07:00 - 07:59</li>
-                    <li>08:00 - 08:59</li>
-                    <li>09:00 - 09:59</li>
-                    <li>10:00 - 10:59</li>
-                    <li>11:00 - 11:59</li>
-                    <li>12:00 - 12:59</li>
-                    <li>13:00 - 13:59</li>
-                    <li>14:00 - 14:59</li>
-                    <li>15:00 - 15:59</li>
-                    <li>16:00 - 16:59</li>
-                    <li>17:00 - 17:59</li>
-                    <li>18:00 - 18:59</li>
-                    <li>19:00 - 19:59</li>
-                    <li>20:00 - 20:59</li>
-                    <li>21:00 - 21:59</li>
-                    <li>22:00 - 22:59</li>
-                    <li>23:00 - 23:59</li>
-                </ul>
+                <table class="body">
+                    <tr><td>00:00 - 00:59</td></tr>
+                    <tr><td>01:00 - 01:59</td></tr>
+                    <tr><td>02:00 - 02:59</td></tr>
+                    <tr><td>03:00 - 03:59</td></tr>
+                    <tr><td>04:00 - 04:59</td></tr>
+                    <tr><td>05:00 - 05:59</td></tr>
+                    <tr><td>06:00 - 06:59</td></tr>
+                    <tr><td>07:00 - 07:59</td></tr>
+                    <tr><td>08:00 - 08:59</td></tr>
+                    <tr><td>09:00 - 09:59</td></tr>
+                    <tr><td>10:00 - 10:59</td></tr>
+                    <tr><td>11:00 - 11:59</td></tr>
+                    <tr><td>12:00 - 12:59</td></tr>
+                    <tr><td>13:00 - 13:59</td></tr>
+                    <tr><td>14:00 - 14:59</td></tr>
+                    <tr><td>15:00 - 15:59</td></tr>
+                    <tr><td>16:00 - 16:59</td></tr>
+                    <tr><td>17:00 - 17:59</td></tr>
+                    <tr><td>18:00 - 18:59</td></tr>
+                    <tr><td>19:00 - 19:59</td></tr>
+                    <tr><td>20:00 - 20:59</td></tr>
+                    <tr><td>21:00 - 21:59</td></tr>
+                    <tr><td>22:00 - 22:59</td></tr>
+                    <tr><td>23:00 - 23:59</td></tr>
+                </table>
             </div>
 
             <!-- <div class="sezione" id="calendariAttivi"></div> -->
 
-            <div class="sezione" id="calLunMarMer">
-                
+            <div class="sezione calendario" id="calLunMarMer">
+                <div class="titolo">Lunedì Martedì Mercoledì</div>
+                <div class="body">
+                    Come fare il calendario?
+                </div>
             </div>
-            <div class="sezione" id="calGioVenSab">
 
+            <div class="sezione calendario" id="calGioVenSab">
+                <div class="titolo">Giovedì Venerdì Sabato</div>
+                <div class="body">
+                    Come fare il calendario?
+                </div>
             </div>
-            <div class="sezione" id="calFree">
+
+            <!-- <div id="calendariLavoro" class="calendario sezione">
+
+            </div> -->
+
+            <div id="calFree" class="sezione">
                 <div class="titolo">Attività Personali</div>
                 
-                <ul id="freeActivitiesList">
+                <ul id="freeActivitiesList" class="body">
                     <li>Pranzo dalla nonna</li>
                     <li>Finire il dipinto</li>
                     <li>Scrivere il codice del sito personale...</li>
@@ -102,15 +113,24 @@
         </div>
 
 
-        <div class="toolsTasks">
-            <div class="sezione" id="tools">
+        <div id="toolsTasks">
+            <div id="tools" class="sezione" >
                 <div class="titolo">My Tools</div>
+                <div class="body">
+
+                </div>
             </div>
-            <div class="sezione" id="teamTasks">
+            <div id="teamTasks" class="sezione" >
                 <div class="titolo">Task di gruppo</div>
+                <div class="body">
+
+                </div>
             </div>
-            <div class="sezione" id="tts">
+            <div id="tts" class="sezione" >
                 <div class="titolo">Team-Time-Sharing</div>
+                <div class="body">
+                    
+                </div>
             </div>
         </div>
 
