@@ -39,3 +39,14 @@
 #toolsTasks .sezione .body{
     background: gainsboro;
 }
+
+#tools .body ul{
+    height: 90%;
+
+    padding: 0%;
+    display: flex;
+    flex-flow: column wrap;
+
+    justify-content: space-around;
+    align-content: flex-start;
+}
