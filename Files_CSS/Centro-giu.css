@@ -4,7 +4,6 @@
 }
 
 #toolsTasks {
-    background: salmon;
     padding: 1%;
     
     height: 38svh;
@@ -19,11 +18,19 @@
     padding: 0.5svh 0% 0% 0%;
 
     display: grid;
-    grid-template-rows: 5% 95%;
+    grid-template-rows: 7.5% 92.5%;
+}
+
+#toolsTasks .sezione .body{
+    border: 2px solid rgb(0,144,157);
+
+    border-radius: 0% 0% 32px 32px;
 }
 
 #toolsTasks .sezione .titolo{
-    background: beige;
+    background: rgb(0,144,157);
+    background: linear-gradient(123deg, rgba(0,144,157,1) 0%, rgba(0,184,186,1) 100%);
+    color: white;
 
     /* text-align: center; */
 
@@ -36,10 +43,6 @@
     border-radius: 100px 100px 0px 0px;
 }
 
-#toolsTasks .sezione .body{
-    background: gainsboro;
-}
-
 #tools .body{
     display: flex;
     flex-flow: column wrap;
@@ -47,6 +50,8 @@
     align-items: flex-start;
 
     padding: 2%;
+
+    border: 2px solid rgb(0,144,157);
 }
 
     #tools .body .applicazione{
@@ -58,10 +63,32 @@
     }
 
     #tools img{
-        height: 8svh;
+        height: 7svh;
         margin: 2%;
     }
 
     #tools .contieniImmagine{
         padding: 1svh;
     }
+
+#tts .body{
+    display: grid;
+    grid-template-rows: 2fr 9fr 3fr;
+}
+
+#addEventoGruppo{
+    height: 100%;
+    align-items: center;
+
+    background-color: #e0fafb;
+    border: 10% solid #422800;
+    border-radius: 30px;
+    color: #422800;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+}

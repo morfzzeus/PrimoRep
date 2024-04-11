@@ -3,15 +3,19 @@ header *{
     overflow: hidden;
 }
 body{
-    background: beige;
+    /* background: #000; */
     font-size: 2svh;
+    font-family: "Architects Daughter", cursive;
+
+    background: beige;
+    /* background-image: url(sfondo.png); */
 }
 .navbar{
-    background: #ff7518;
+    background: rgb(132,237,184);
+    background: linear-gradient(129deg, rgba(132,237,184,1) 0%, rgba(9,112,121,1) 65%, rgba(51,89,162,1) 100%);
     /* font-size: 1em; */
     display: grid;
     max-height: 8svh;
-    padding: 0.5%;
     grid-template-columns: 1fr 4fr 2fr;
     grid-template-areas: sx ce dx;
     /* font-size: 2svh; */
