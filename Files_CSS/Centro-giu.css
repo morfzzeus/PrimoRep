@@ -40,13 +40,27 @@
     background: gainsboro;
 }
 
-#tools .body ul{
-    height: 90%;
-
-    padding: 0%;
+#tools .body{
     display: flex;
     flex-flow: column wrap;
-
     justify-content: space-around;
-    align-content: flex-start;
+    align-items: flex-start;
+
+    padding: 2%;
 }
+
+    #tools .body .applicazione{
+        display: grid;
+        grid-template-columns: 3fr 6fr;
+        gap: 10%;
+
+        align-items: center;
+    }
+
+    #tools img{
+        height: 8svh;
+    }
+
+    #tools .contieniImmagine{
+        padding: 1svh;
+    }

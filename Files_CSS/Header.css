@@ -15,7 +15,7 @@ body{
     display: grid;
     max-height: 8svh;
     padding: 0.5%;
-    grid-template-columns: 1fr 4fr 1fr;
+    grid-template-columns: 1fr 4fr 2fr;
     grid-template-areas: sx ce dx;
     /* font-size: 2svh; */
 }
@@ -49,3 +49,13 @@ body{
         justify-content: space-around;
         align-items: center;
     }
+
+        .navbar .dx img{
+            /* width: 50%; */
+            max-height: 6svh;
+        }
+
+        #tastoAddTeam{
+            width: 90%;
+            height: auto;
+        }
