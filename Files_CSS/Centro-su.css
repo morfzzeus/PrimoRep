@@ -64,3 +64,8 @@
 
     background: beige;
 }
+
+#calendari td{
+    height: 5svh;
+    border: 2% grey solid;
+}
