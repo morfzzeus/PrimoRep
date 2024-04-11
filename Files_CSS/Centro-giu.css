@@ -19,15 +19,20 @@
     padding: 0.5svh 0% 0% 0%;
 
     display: grid;
-    grid-template-rows: 5% 90%;
-    
-    
+    grid-template-rows: 10% 90%;
 }
 
 #toolsTasks .sezione .titolo{
     background: beige;
 
-    text-align: center;
+    /* text-align: center; */
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 85%;
     border-radius: 100px 100px 0px 0px;
 }
 
