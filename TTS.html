@@ -29,7 +29,11 @@
 
         <div class="ce">
             <div id="barraRicerca">
-                <input type="text" id="searchInput" placeholder="Type an event, a friend...">
+                <form role="search">
+                    <label for="search"></label>
+                    <input id="search" type="search" placeholder="Search..." autofocus required />
+                    <button type="submit">Go</button>
+                </form>
             </div>
             <div id="clock">
                 Caricamento data in corso...
