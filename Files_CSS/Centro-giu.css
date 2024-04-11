@@ -9,7 +9,7 @@
     
     height: 38svh;
     display: grid;
-    grid-template-columns: 3fr 10fr 4fr;
+    grid-template-columns: 30fr 45fr 24fr;
     gap: 2%;
     
     justify-content: space-between;
