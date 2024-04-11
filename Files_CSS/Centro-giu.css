@@ -19,7 +19,7 @@
     padding: 0.5svh 0% 0% 0%;
 
     display: grid;
-    grid-template-rows: 10% 90%;
+    grid-template-rows: 5% 95%;
 }
 
 #toolsTasks .sezione .titolo{
