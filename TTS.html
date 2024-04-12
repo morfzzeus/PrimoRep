@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="Files_CSS/Header.css">
     <link rel="stylesheet" href="Files_CSS/Centro-su.css">
     <link rel="stylesheet" href="Files_CSS/Centro-giu.css">
+    <link rel="stylesheet" href="Files_css/Footer.css">
 
     <script src="Files_JS/TimeNavbar.js"></script>
 </head>
@@ -238,13 +239,18 @@
             </div>
 
             <div id="calFree" class="sezione">
-                <div class="titolo">Attività Personali</div>
+                <div class="titolo">Attività Personali & Domenica</div>
                 
                 <ul id="freeActivitiesList" class="body">
-                    <li></li>
-                    <li>Finire il dipinto</li>
-                    <li>Scrivere il codice del sito personale...</li>
-                    <li>Imparare la ricetta di cucina wow</li>
+                    <li>Lettura del romanzo</li>
+                    <li>Cucinare</li>
+                    <li>Uscire in bici</li>
+                    <li>Andare a trovare i parenti</li>
+                    <li>Lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor</li>
+                    <li>sit</li>
+                    <li>amet</li>
                     <!-- <li style="font-size: 2rem;"><strong>G I A R D I N A G G I O</strong></li> -->
                 </ul>
             </div>
@@ -255,28 +261,39 @@
             <div id="tools" class="sezione" >
                 <div class="titolo">My Tools</div>
                 <div class="body">
-                        <div class="applicazione">
+                        <a href="https://www.instagram.com" target="_blank" class="applicazione">
                             <div class="contieniImmagine"><img src="Loghi_APP/INSTA_LOGO.png" alt="Logo Instagram"></div>
-                            <div>Instagram</div>
-                        </div>
-                        <div class="applicazione">
+                            <div style="">Instagram</div>
+                        </a>
+                        <a href="https://www.whatsapp.com" target="_blank" class="applicazione">
                             <div class="contieniImmagine"><img src="Loghi_APP/WHATSAPP_LOGO.png" alt="Logo WhatsApp"></div>
                             <div>WhatsApp</div>
-                        </div>
-                        <div class="applicazione">
+                        </a>
+                        <a href="https://www.replit.com" target="_blank" class="applicazione">
                             <div class="contieniImmagine"><img src="Loghi_APP/CODING.png" alt="Logo Coding"></div>
                             <div>Coding Online</div>
-                        </div>
+                        </a>
                     </ul>
                 </div>
             </div>
             <div id="teamTasks" class="sezione" >
                 <div class="titolo">Task di gruppo</div>
                 <div class="body">
-                    <div>Prossima attività di gruppo:</div>
-                    <div id="contenutoNextTasks">
-                        <div id="uscitaLecce">
-                            Uscita a Lecce
+                    <div style="padding-left: 2%; padding-top: 2%;">Prossima attività di gruppo:</div>
+                    <div id="contenutoNextTasks" style="height: 100%; display: grid; grid-template-rows: repeat(2,auto); grid-template-columns: 100%; padding: 3%;">
+                        <div style="border: grey 2px solid; background: lightcyan; display: grid; grid-template-columns: repeat(2, auto); align-items: center;" id="uscitaLecce">
+                            <div>
+                                <div class="nome">Uscita a Lecce</div>
+                                <div class="orario">Lunedì (16:00 - 20:59)</div>
+                            </div>
+                            <div style="justify-self: right; padding-right: 5%;" class="info"><a href="https://it.wikipedia.org/wiki/Lecce" target="_blank"><img src="Loghi_APP/WIKIPEDIA.png" alt="Pagina di Wikipedia" height="80svh"></a></div>
+                        </div>
+                        <div style="border: grey 2px solid; background: lightcyan; display: grid; grid-template-columns: repeat(2, auto); align-items: center;" id="uscitaLecce">
+                            <div>
+                                <div class="nome">Cena a Mesagne</div>
+                                <div class="orario">Mercoledì (19:00 - 20:59)</div>
+                            </div>
+                            <div style="justify-self: right; padding-right: 5%;" class="info"><a href="https://www.tripadvisor.it/Restaurants-g659610-Mesagne_Province_of_Brindisi_Puglia.html" target="_blank"><img src="Loghi_APP/TRIPADVISOR.png" alt="Tripadvisor, locali a Mesagne" height="80svh"></a></div>
                         </div>
                     </div>
                 </div>
@@ -292,5 +309,24 @@
         </div>
 
     </main>
+
+    <footer>
+        <div class="versione">Versione 0.5.0 (Presentazione del PCTO)</div>
+        <div class="nome">
+            <div class="tizio">
+                <!-- <img src="Loghi_APP/INSTA_LOGO.png" alt="Instagram" height="50svh" width="50svh"> -->
+            </div>
+        </div>
+        <ul class="autori">
+            <!-- Aggiungere i collegamenti agli instagram & social vari -->
+
+            <li>Giuseppe Tedesco - Team Leader</li>
+            <li>Morfeo Fabio - Grafico, Collaboratore CSS & JS</li>
+            <li>Giovanni Ancora - Main Developer</li>
+            <li>Francesco Ugo Summa - Developer</li>
+            <li>Andrea De Carlo - Developer</li>
+        </ul>
+        <a href="Credits.html" class="team" style="color: black; text-decoration: none;">Diversity Team</a>
+    </footer>
 </body>
 </html>
