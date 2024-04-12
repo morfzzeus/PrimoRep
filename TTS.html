@@ -9,9 +9,9 @@
 
 
 
-    <link rel="stylesheet" href="Files_css/Header.css">
-    <link rel="stylesheet" href="Files_css/Centro-su.css">
-    <link rel="stylesheet" href="Files_css/Centro-giu.css">
+    <link rel="stylesheet" href="Files_CSS/Header.css">
+    <link rel="stylesheet" href="Files_CSS/Centro-su.css">
+    <link rel="stylesheet" href="Files_CSS/Centro-giu.css">
 
     <script src="Files_JS/TimeNavbar.js"></script>
 </head>
@@ -43,7 +43,7 @@
                 <img src="Navbar_JPG/AddTeam.png" alt="Add Team" id="tastoAddTeam">
             </div>
             <div>
-                <img src="Navbar_JPG/CurrentTeam.png" alt="Teams menu" id="tastoListaTeams">
+                <img src="Navbar_JPG/DIVERSITY.png" alt="Teams menu" id="tastoListaTeams">
             </div>
         </div>
     </header>
@@ -173,7 +173,7 @@
                             <tr>
                                 <td class="orari">15:00</td>
                                 <td></td>
-                                <td></td>
+                                <td rowspan="5" style="background: lightslategray;">Arbitraggio della partita (Giuseppe)</td>
                                 <td rowspan="4" style="background: lightblue;">Sessione di coding (Giovanni)</td>
                                 <td></td>
                                 <td></td>
@@ -181,7 +181,7 @@
                             </tr>
                             <tr>
                                 <td class="orari">16:00</td>
-                                <td></td>
+                                <td rowspan="5" style="background: lightseagreen;">Uscita a Lecce (Team task)</td>
                                 <td></td>
                                 <td rowspan="4" style="background: lightsalmon;">Ripetizioni di matematica (Francesco)</td>
                                 <td rowspan="2" style="background: lightyellow;">Palestra (Andrea)</td>
@@ -191,11 +191,9 @@
                                 <td class="orari">17:00</td>
                                 <td></td>
                                 <td></td>
-                                <td></td>
                             </tr>
                             <tr>
                                 <td class="orari">18:00</td>
-                                <td></td>
                                 <td></td>
                                 <td rowspan="3" style="background: lightblue;">Compiti (Giovanni)</td>
                                 <td></td>
@@ -203,13 +201,11 @@
                             <tr>
                                 <td class="orari">19:00</td>
                                 <td></td>
-                                <td></td>
                                 <td rowspan="2" style="background: lightcoral;">Palestra (Fabio)</td>
                                 <td></td>
                             </tr>
                             <tr>
                                 <td class="orari">20:00</td>
-                                <td></td>
                                 <td></td>
                                 <td></td>
                                 <td></td>
@@ -273,8 +269,8 @@
                             <div>WhatsApp</div>
                         </div>
                         <div class="applicazione">
-                            <div class="contieniImmagine"><img src="Loghi_APP/REDDIT_LOGO.png" alt="Logo Reddit"></div>
-                            <div>Reddit</div>
+                            <div class="contieniImmagine"><img src="Loghi_APP/CODING.png" alt="Logo Coding"></div>
+                            <div>Coding Online</div>
                         </div>
                     </ul>
                 </div>
@@ -283,7 +279,9 @@
                 <div class="titolo">Task di gruppo</div>
                 <div class="body">
                     <div>Prossima attività di gruppo:</div>
-                    <div></div>
+                    <div id="contenutoNextTasks">
+                        <div></div>
+                    </div>
                 </div>
             </div>
             <div id="tts" class="sezione" >
