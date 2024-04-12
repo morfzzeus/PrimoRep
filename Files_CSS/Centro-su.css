@@ -1,0 +1,101 @@
+#calendariSettimana, #calendariSettimana *{
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#calendariSettimana{
+    padding: 1%;
+
+    /* max-height: 50svh; */
+    height: 48svh;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 75fr 24fr;
+    gap: 2%;
+}
+
+#calendariSettimana .sezione{
+    padding: 0.5svh 0% 0% 0%;
+
+    display: grid;
+    grid-template-rows: 5% 95%;
+    
+    /* align-items: 0px; */    
+}
+
+#calendariSettimana .sezione .titolo{
+    background: rgb(0,144,157);
+    background: linear-gradient(123deg, rgba(0,144,157,1) 0%, rgba(0,184,186,1) 100%); 
+    /* margin: 5% 2% 0% 2%; */
+    border-radius: 100px 100px 0px 0px;
+    margin: 0%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 85%;
+}
+
+#calendari{
+    /* display: block; */
+    height: 20%;
+    width: 100%;
+
+    border-collapse: collapse;
+    /* background: rgb(123, 112, 129); */
+    background: rgb(148,102,166);
+    background: linear-gradient(278deg, rgba(148,102,166,1) 0%, rgba(192,70,252,1) 100%);
+}
+
+#calendari td{
+    border: darkslategrey solid 2px;
+}
+
+#divCalendari{
+    height: 100%;
+    width: 100%;
+    overflow-y: scroll;
+
+    /* background: gainsboro; */
+}
+
+#calendariSettimana .sezione .body{
+    /* background: gainsboro; */
+    margin: 0%;
+    /* padding: 0%; */
+
+    border: 2px solid rgb(0,144,157);
+    border-radius: 0% 0% 32px 32px;
+}
+
+#intestazioni{
+    background: rgb(0,144,157);
+    background: linear-gradient(123deg, rgba(0,144,157,1) 0%, rgba(0,184,186,1) 100%);
+
+    border-radius: 100px 100px 0px 0px;
+    
+    width: 100%;
+    
+    margin: 0%;
+    padding: 0% 2% 0% 0%;
+
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+#calendari td{
+    height: 5svh;
+    width: 14%;
+    border: 2% grey solid;
+}
+
+#freeActivitiesList{
+    padding-left: 5%;
+    /* list-style-type: disc; */
+}

@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.2, user-scalable=no"> -->
+
+    <title>Team-Time-Sharing</title>
+
+
+
+    <link rel="stylesheet" href="Files_CSS/Header.css">
+    <link rel="stylesheet" href="Files_CSS/Centro-su.css">
+    <link rel="stylesheet" href="Files_CSS/Centro-giu.css">
+    <link rel="stylesheet" href="Files_css/Footer.css">
+
+    <script src="Files_JS/TimeNavbar.js"></script>
+</head>
+
+
+<body>
+    <header class="navbar">
+        <div class="sx">
+            <img src="Possibili Loghi/Logo_Canva.png" alt="TTS Team-Time-Sharing">
+        </div>
+
+        <div class="ce">
+            <div id="barraRicerca">
+                <form role="search">
+                    <label for="search"></label>
+                    <input id="search" type="search" placeholder="Search a date, an activity..."/>
+                </form>
+            </div>
+            <div id="clock">
+                Caricamento data in corso...
+            </div>
+        </div>
+
+        <div class="dx">
+            <div>
+                <img src="Navbar_JPG/LogoProfilo.png" alt="Profilo">
+            </div>
+            <div>
+                <img src="Navbar_JPG/AddTeam.png" alt="Add Team" id="tastoAddTeam">
+            </div>
+            <div>
+                <img src="Navbar_JPG/DIVERSITY.png" alt="Teams menu" id="tastoListaTeams">
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+
+        <div id="calendariSettimana">
+            <div id="tabellaTotale">
+                <ul id="intestazioni">
+                    <li>Times</li>
+                    <li>Lun</li>
+                    <li>Mar</li>
+                    <li>Mer</li>
+                    <li>Gio</li>
+                    <li>Ven</li>
+                    <li>Sab</li>
+                </ul>
+                <div id="divCalendari">
+                    <table id="calendari">
+                        <tbody>
+                            <tr>
+                                <td class="orari">00:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">01:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">02:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">03:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">04:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">05:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">06:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">07:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">08:00</td>
+                                <td rowspan="7" style="background: lightgoldenrodyellow;">Scuola</td>
+                                <td rowspan="7" style="background: lightgoldenrodyellow;">Scuola</td>
+                                <td rowspan="7" style="background: lightgoldenrodyellow;">Scuola</td>
+                                <td rowspan="7" style="background: lightgoldenrodyellow;">Scuola</td>
+                                <td rowspan="7" style="background: lightgoldenrodyellow;">Scuola</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">09:00</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">10:00</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">11:00</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">12:00</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">13:00</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">14:00</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">15:00</td>
+                                <td></td>
+                                <td rowspan="5" style="background: lightslategray;">Arbitraggio della partita (Giuseppe)</td>
+                                <td rowspan="4" style="background: lightblue;">Sessione di coding (Giovanni)</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">16:00</td>
+                                <td rowspan="5" style="background: lightseagreen;">Uscita a Lecce (Team task)</td>
+                                <td></td>
+                                <td rowspan="4" style="background: lightsalmon;">Ripetizioni di matematica (Francesco)</td>
+                                <td rowspan="2" style="background: lightyellow;">Palestra (Andrea)</td>
+                            </tr>
+                            <tr>
+                                <td class="orari">17:00</td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">18:00</td>
+                                <td></td>
+                                <td rowspan="3" style="background: lightblue;">Compiti (Giovanni)</td>
+                            </tr>
+                            <tr>
+                                <td class="orari">19:00</td>
+                                <td rowspan="2" style="background: lightseagreen;">Cena a Mesagne (Team Task)</td>
+                                <td rowspan="2" style="background: lightcoral;">Palestra (Fabio)</td>
+                                </tr>
+                            <tr>
+                                <td class="orari">20:00</td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">21:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">22:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                            <tr>
+                                <td class="orari">23:00</td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                                <td></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <div id="calFree" class="sezione">
+                <div class="titolo">Attività Personali & Domenica</div>
+                
+                <ul id="freeActivitiesList" class="body">
+                    <li>Lettura del romanzo</li>
+                    <li>Cucinare</li>
+                    <li>Uscire in bici</li>
+                    <li>Andare a trovare i parenti</li>
+                    <li>Lorem</li>
+                    <li>ipsum</li>
+                    <li>dolor</li>
+                    <li>sit</li>
+                    <li>amet</li>
+                    <!-- <li style="font-size: 2rem;"><strong>G I A R D I N A G G I O</strong></li> -->
+                </ul>
+            </div>
+        </div>
+
+
+        <div id="toolsTasks">
+            <div id="tools" class="sezione" >
+                <div class="titolo">My Tools</div>
+                <div class="body">
+                        <a href="https://www.instagram.com" target="_blank" class="applicazione">
+                            <div class="contieniImmagine"><img src="Loghi_APP/INSTA_LOGO.png" alt="Logo Instagram"></div>
+                            <div style="">Instagram</div>
+                        </a>
+                        <a href="https://www.whatsapp.com" target="_blank" class="applicazione">
+                            <div class="contieniImmagine"><img src="Loghi_APP/WHATSAPP_LOGO.png" alt="Logo WhatsApp"></div>
+                            <div>WhatsApp</div>
+                        </a>
+                        <a href="https://www.replit.com" target="_blank" class="applicazione">
+                            <div class="contieniImmagine"><img src="Loghi_APP/CODING.png" alt="Logo Coding"></div>
+                            <div>Coding Online</div>
+                        </a>
+                    </ul>
+                </div>
+            </div>
+            <div id="teamTasks" class="sezione" >
+                <div class="titolo">Task di gruppo</div>
+                <div class="body">
+                    <div style="padding-left: 2%; padding-top: 2%;">Prossima attività di gruppo:</div>
+                    <div id="contenutoNextTasks" style="height: 100%; display: grid; grid-template-rows: repeat(2,auto); grid-template-columns: 100%; padding: 3%;">
+                        <div style="border: grey 2px solid; background: lightcyan; display: grid; grid-template-columns: repeat(2, auto); align-items: center;" id="uscitaLecce">
+                            <div>
+                                <div class="nome">Uscita a Lecce</div>
+                                <div class="orario">Lunedì (16:00 - 20:59)</div>
+                            </div>
+                            <div style="justify-self: right; padding-right: 5%;" class="info"><a href="https://it.wikipedia.org/wiki/Lecce" target="_blank"><img src="Loghi_APP/WIKIPEDIA.png" alt="Pagina di Wikipedia" height="80svh"></a></div>
+                        </div>
+                        <div style="border: grey 2px solid; background: lightcyan; display: grid; grid-template-columns: repeat(2, auto); align-items: center;" id="uscitaLecce">
+                            <div>
+                                <div class="nome">Cena a Mesagne</div>
+                                <div class="orario">Mercoledì (19:00 - 20:59)</div>
+                            </div>
+                            <div style="justify-self: right; padding-right: 5%;" class="info"><a href="https://www.tripadvisor.it/Restaurants-g659610-Mesagne_Province_of_Brindisi_Puglia.html" target="_blank"><img src="Loghi_APP/TRIPADVISOR.png" alt="Tripadvisor, locali a Mesagne" height="80svh"></a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="tts" class="sezione" >
+                <div class="titolo">Team-Time-Sharing</div>
+                <div class="body">
+                    <div>Prossimo tempo libero in comune:</div>
+                    <div style="text-align: center;" id="tempo">Giovedì<br>16:00 - 18:59</div>
+                    <button type="button" id="addEventoGruppo">Aggiungi un evento di gruppo</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="versione">Versione 0.5.0 (Presentazione del PCTO)</div>
+        <div class="nome">
+            <div class="tizio">
+                <!-- <img src="Loghi_APP/INSTA_LOGO.png" alt="Instagram" height="50svh" width="50svh"> -->
+            </div>
+        </div>
+        <ul class="autori">
+            <!-- Aggiungere i collegamenti agli instagram & social vari -->
+
+            <li>Giuseppe Tedesco - Team Leader</li>
+            <li>Morfeo Fabio - Grafico, Collaboratore CSS & JS</li>
+            <li>Giovanni Ancora - Main Developer</li>
+            <li>Francesco Ugo Summa - Developer</li>
+            <li>Andrea De Carlo - Developer</li>
+        </ul>
+        <a href="Credits.html" class="team" style="color: black; text-decoration: none;">Diversity Team</a>
+    </footer>
+</body>
+</html>
