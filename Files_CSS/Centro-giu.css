@@ -6,7 +6,7 @@
 #toolsTasks {
     padding: 1%;
     
-    height: 38svh;
+    height: 40svh;
     display: grid;
     grid-template-columns: 30fr 45fr 24fr;
     gap: 2%;
@@ -23,7 +23,6 @@
 
 #toolsTasks .sezione .body{
     border: 2px solid rgb(0,144,157);
-
     border-radius: 0% 0% 32px 32px;
 }
 
@@ -44,6 +43,7 @@
 }
 
 #tools .body{
+
     display: flex;
     flex-flow: column wrap;
     justify-content: space-around;

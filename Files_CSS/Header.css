@@ -37,6 +37,7 @@ body{
         column-gap: 5%;
         align-items: center;
     }
+
     .navbar .dx{
         display: flex;
         flex-flow: row-reverse;

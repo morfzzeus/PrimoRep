@@ -25,7 +25,7 @@
 
 #calendariSettimana .sezione .titolo{
     background: rgb(0,144,157);
-    background: linear-gradient(123deg, rgba(0,144,157,1) 0%, rgba(0,184,186,1) 100%);
+    background: linear-gradient(123deg, rgba(0,144,157,1) 0%, rgba(0,184,186,1) 100%); 
     /* margin: 5% 2% 0% 2%; */
     border-radius: 100px 100px 0px 0px;
     margin: 0%;
@@ -64,7 +64,7 @@
 #calendariSettimana .sezione .body{
     /* background: gainsboro; */
     margin: 0%;
-    padding: 0%;
+    /* padding: 0%; */
 
     border: 2px solid rgb(0,144,157);
     border-radius: 0% 0% 32px 32px;
@@ -93,4 +93,9 @@
     height: 5svh;
     width: 14%;
     border: 2% grey solid;
+}
+
+#freeActivitiesList{
+    padding-left: 5%;
+    /* list-style-type: disc; */
 }
