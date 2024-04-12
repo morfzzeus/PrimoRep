@@ -7,8 +7,8 @@ TTS è il tuo compagno affidabile per pianificare e gestire le attività settima
 
 ## Funzionalità Principali: 🚀
 - **Elenco Settimanale:** Visualizza chiaramente i giorni e gli orari della settimana. Non perderai mai di vista gli appuntamenti importanti.
-- **Attività di Tempo Libero e Giorno Libero:** TTS ti aiuta a bilanciare il lavoro e il relax. Inserisci le attività per il tempo libero e i giorni liberi per ottimizzare la tua settimana.
-- **Tools Personali:** WhatsApp, IDE online o qualsiasi altra app di: TTS automticamente riconosce la task corrente e ti suggerisce all'istante una serie di tools utili per il completamento della task corrente. Inoltre, con la chat integrata, sei sempre in contatto con il tuo team!
+- **Attività di Tempo Libero e Giorno Libero:** TTS ti aiuta a bilanciare il lavoro e il relax. Inserisci le attività per individuare il tempo libero e i giorni liberi, ottimizzando la tua settimana.
+- **Tools Personali:** WhatsApp, IDE online o qualsiasi altra app di comunicazione: TTS automticamente riconosce la task corrente e ti suggerisce all'istante una serie di tools utili per il suo completamento. Inoltre, con la chat integrata, sei sempre in contatto con il tuo team!
 - **Tabella delle Task di Gruppo:** Assegna eventi, monitora lo stato e collabora senza sforzo. TTS rende la gestione delle attività di gruppo un vero gioco da ragazzi.
 
 ## Installazione e Utilizzo: 🛠️
