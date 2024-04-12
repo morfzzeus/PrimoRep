@@ -3,6 +3,7 @@ function updateClock() {
   const now = new Date();
   
   // Get day, month, year, hours, minutes, and seconds, and pad them with leading zeros if necessary
+  //padStart() - serve per inserire '0' (in questo caso) se la stringa è minore di due caratteri (in questo caso)
   const dayOfMonth = now.getDate().toString().padStart(2, '0');
   const month = (now.getMonth() + 1).toString().padStart(2, '0'); // Note: January is 0, so we add 1 to get the correct month
   const year = now.getFullYear();
