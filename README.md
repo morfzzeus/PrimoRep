@@ -1,4 +1,4 @@
-# TTS - The Team TimeSharing
+# TTS - The TeamTime Sharing
 
 **TTS - The Team TimeSharing è molto più di un semplice planner settimanale. È il fulcro dell’organizzazione e della collaborazione del tuo gruppo. Ecco come questo straordinario strumento si distingue:**
 
