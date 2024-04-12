@@ -7,8 +7,8 @@ body{
     font-size: 2svh;
     font-family: "Architects Daughter", cursive;
 
-    background: beige;
-    /* background-image: url(sfondo.png); */
+    background: rgb(245,245,220);
+    background: linear-gradient(297deg, rgba(245,245,220,1) 14%, rgba(228,208,114,1) 83%);
 }
 .navbar{
     background: rgb(132,237,184);
